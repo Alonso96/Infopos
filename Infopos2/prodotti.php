@@ -116,37 +116,46 @@
   		
   			<div class="colproduct">
   				<h5>Registratori di Cassa</h5>
-  				<img src="images/rs400_.jpg" alt="rs400" style="width:40%">
+  				<img src="images/rs400_.jpg" alt="rs400" style="width:60%">
   				<div class="txt2"> Negozi - Farmacie - Esercizi Commerciali  </div>
   			</div>
   			
   			<div class="colproduct">
   				<h5>Linea Cei Systems</h5>
-  				<a href="ceisystems.php"><img src="images/t15.png" alt="t15" style="width:40%"></a>
+  				<a href="ceisystems.php"><img src="images/t15.png" alt="t15" style="width:60%"></a>
   				<div class="txt2"> Negozi - Tabacchi - Bar - Franchising - Pub - Locali </div>
   			</div>
   			<div style= "clear: both;"> </div>
   			<div class="colproduct">
   				<h5>Linea Rch</h5>
-  				<img src="images/atos15.jpg" alt="atos15" style="width:40%">
+  				<img src="images/atos15.jpg" alt="atos15" style="width:60%">
   				<div class="txt2"> Negozi - Tabacchi - Bar - Franchising - Pub - Locali </div>
   			</div>
   			
   			<div class="colproduct">
   			<h5>Linea Direca</h5>
-  				<img src="images/direca.png" alt="direca" style="width:40%">
+  				<img src="images/direca.png" alt="direca" style="width:60%">
   				<div class="txt2"> Negozi - Tabacchi - Bar - Franchising - Pub - Locali </div>
   			</div>
   			<div style= "clear: both;"> </div>
   			
   		<div class="colproduct">
   			<h5>Bilance</h5>
-  				<img src="images/helmac.jpg" alt="helmac" style="width:40%">
-  				<div class="txt2"> Negozi - Pescherie - Bar - Franchising - Pub - Locali </div>
+  				<img src="images/helmac.jpg" alt="helmac" style="width:60%">
+  				<div class="txt2"> Negozi - Pescherie - Bar - Franchising - Pub - Pasticcerie </div>
   			</div>
+  			
+  			
+  			<div class="colproduct">
+  		<h5> Cassetto automatico </h5>
+  				<img src="images/safem.jpg" alt="safemoney" style="width:60%">
+  				<div class="txt2"> Negozi - Pescherie - Bar - Franchising - Pub - Pasticcerie </div>
+  			</div>
+  			
         
   		</div>
 
+		
 	
   	</div>
 

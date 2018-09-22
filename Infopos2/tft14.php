@@ -107,6 +107,15 @@
       <img src="images/tft14allside.png" alt="cei Systems" style="width:100%;float:left"><br>
       <div style= "clear: both;"> </div>
       <br>
+      
+        <aside>
+  <h5 style="color:red;">Prodotti Correlati</h5>
+  <a href="atz4.php"> <img src="images/atz4.png" alt="t15" style="width:50%"> ATZ4  </a> <br>
+  
+  <a href="smartnote.php"> <img src="images/smartnote.png" alt="tft14" style="width:50%"> App Smartnote </a>
+  
+  
+  </aside>
       <p class="desc">
          	Il punto cassa TFT14 è la scelta perfetta per chi cerca un registratore di cassa touch screen dal forte impatto estetico con componenti di rara qualità nel settore Ho.Re.Ca., ideale per chi tiene all'immagine del proprio locale.
 

@@ -14,7 +14,7 @@
 
 
 .icon-bar {
-  position: fixed;
+  position:fixed;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -94,13 +94,7 @@
      <a href="fatturazione.php">Fatturazione Elettronica</a>
 </div>
 
-  <div class="icon-bar">
-  <a href="https://www.facebook.com/Infopos.it/" class="facebook"><i class="fa fa-facebook"></i></a> 
-  <a href="https://infopos.business.site/" class="google"><i class="fa fa-google"></i></a> 
-  <a href="https://it.linkedin.com/company/infoposdiluciani" class="linkedin"><i class="fa fa-linkedin"></i></a>
-
-</div>
-
+  
 
 <div class="slideshow-container">
 
