@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Registratori di cassa e Sistemi Touch Screen - InfoPos</title>
+<title>Chi Siamo - InfoPos</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/layout.css">
@@ -93,12 +93,7 @@
      <a href="fatturazione.php">Fatturazione Elettronica</a>
 </div>
 
-  <div class="icon-bar">
-  <a href="https://www.facebook.com/Infopos.it/" class="facebook"><i class="fa fa-facebook"></i></a> 
-  <a href="https://infopos.business.site/" class="google"><i class="fa fa-google"></i></a> 
-  <a href="https://it.linkedin.com/company/infoposdiluciani" class="linkedin"><i class="fa fa-linkedin"></i></a>
-
-</div>
+ 
 
 <div class="main">
   

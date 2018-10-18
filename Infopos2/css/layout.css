@@ -126,6 +126,21 @@ body {
     padding: 80px;
 }
 
+.cont{
+	display:inline-block;
+	margin:30px;
+	background-color:#8ae234;
+	
+	
+	
+	
+}
+.txt1{
+	font-size:20px;
+	text-align:center;
+	color:white;
+}
+
 h5 {
 	font-size:20px;
 	font-weight: 500;
@@ -217,7 +232,7 @@ aside a{
 	text-align:center;
 	color:green;
 	text-decoration:none;
-
+	font-size:20px;
 	width:5px;
 	
 }

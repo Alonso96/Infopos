@@ -119,8 +119,14 @@
 <div class="mySlides fade">
   
   <img src="images/t15.png" style="width:30%;">
+  
+ 
 
 </div>
+ 
+  <div class="mySlides fade">
+  
+  <img src="images/safem.jpg" style="width:30%;">
 </div>
 <br>
 
@@ -198,7 +204,7 @@ Siamo specializzati nella vendita e assistenza di registratori di cassa e attrez
 </div>
 
 
-
+</div>
 <br>
 <div style= "clear: both;"> </div>
 <footer>

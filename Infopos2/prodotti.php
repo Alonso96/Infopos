@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Registratori di cassa e Sistemi Touch Screen - InfoPos</title>
+<title>Prodotti- InfoPos</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/layout.css">
@@ -148,8 +148,15 @@
   			
   			<div class="colproduct">
   		<h5> Cassetto automatico </h5>
-  				<img src="images/safem.jpg" alt="safemoney" style="width:60%">
+  			<a href="safemoney.php">	<img src="images/safem.jpg" alt="safemoney" style="width:60%"></a>
   				<div class="txt2"> Negozi - Pescherie - Bar - Franchising - Pub - Pasticcerie </div>
+  			</div>
+  			
+  			
+  			<div class="colproduct">
+  		<h5> Linea XPosPC </h5>
+  			<a href="xpos.php"><img src="images/xpos.jpg" alt="XPosPC" style="width:60%"></a>
+  				<div class="txt2"> Negozi - Bar - Franchising - Pub - Pasticcerie - Locali</div>
   			</div>
   			
         

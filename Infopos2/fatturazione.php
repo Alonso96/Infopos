@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Registratori di cassa e Sistemi Touch Screen - InfoPos</title>
+<title>Fatturazione Elettronica - InfoPos</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/layout.css">
 </head>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+<link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
 <style>
 
 
@@ -87,9 +87,9 @@
 <div class="navbar">
   <a  href="index.php">Home</a>
     <a href="chisiamo.php" >Chi Siamo</a>
-    <a href="#product">Prodotti</a>
+    <a href="prodotti.php">Prodotti</a>
      <a href="contatti.php">Contatti</a>
-         <a href="servizi.php">Servizi</a>
+     <a href="servizi.php">Servizi</a>
      <a class="active" href="fatturazione.php">Fatturazione Elettronica</a>
 </div>
 
