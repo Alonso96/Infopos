@@ -84,14 +84,23 @@
   
 </div>
 
-<div class="navbar">
-  <a  href="index.php" >Home</a>
-    <a  href="chisiamo.php" >Chi Siamo</a>
-    <a class="active" href="prodotti.php">Prodotti</a>
+<script type="text/javascript" src="script/toogle.js"></script>
+ <div class="topnav" id="myTopnav">
+           <a href="index.php">Home</a>
+    <a href="chisiamo.php" >Chi Siamo</a>
+    <a class="active"href="prodotti.php">Prodotti</a>
      <a href="contatti.php">Contatti</a>
      <a href="servizi.php">Servizi</a>
      <a href="fatturazione.php">Fatturazione Elettronica</a>
-</div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>    
+            
+            
+     </div>
+
+
+  
 
   <div class="icon-bar">
   <a href="https://www.facebook.com/Infopos.it/" class="facebook"><i class="fa fa-facebook"></i></a> 

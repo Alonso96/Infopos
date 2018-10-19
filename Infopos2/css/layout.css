@@ -19,16 +19,6 @@ body {
 .h2{
 	  text-decoration: overline;
 }
-.desc{
-
-	text-align:center;
-	font-family: Arial, Helvetica, sans-serif;
-	line-height: 1.4;
-	color: #2e3436;
-	
-	letter-spacing: .10em;
-	
-}
 #start{
 	margin: 40px auto;
 	background-color:white;
@@ -60,46 +50,18 @@ body {
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
-.navbar {
-    overflow: hidden;
-    background-color: #d3d7cf;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-
-}
 
 /* Style the navigation bar links */
-.navbar a {
-    float: left;
-    display: block;
-    color: black;
-    font-size:15px;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-weight:700;
-   
-    
-}
+
 
 
 /* Right-aligned link */
-.navbar a.right {
-    float: right;
-}
+
 
 /* Change color on hover */
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
 
 /* Active/current link */
-.navbar a.active {
-    background-color: #666;
-    color: white;
-}
+
 
 /* Column container */
 .row {  
@@ -118,6 +80,46 @@ body {
     padding: 20px;
 }
 
+
+.topnav {
+  overflow: hidden;
+  background-color: #3465a4;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #2e3436;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+
+
 /* Main column */
 .main {   
     -ms-flex: 70%; /* IE10 */
@@ -135,6 +137,17 @@ body {
 	
 	
 }
+.desc{
+
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.4;
+	color: #2e3436;
+	
+	letter-spacing: .10em;
+	
+}
+
 .txt1{
 	font-size:20px;
 	text-align:center;
@@ -335,22 +348,26 @@ footer{
 #barra_social a{
 	color: #204a87;
 }
-}
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-    .row {   
-        flex-direction: column;
-    }
-    
-    
-    
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-    .navbar a {
-        float: none;
-        width: 100%;
-    }
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 

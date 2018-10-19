@@ -86,36 +86,42 @@
   
 </div>
 
-<div class="navbar">
-  <a  href="index.php" >Home</a>
-    <a  href="chisiamo.php" >Chi Siamo</a>
+<script type="text/javascript" src="script/toogle.js"></script>
+ <div class="topnav" id="myTopnav">
+           <a  href="index.php">Home</a>
+    <a href="chisiamo.php" >Chi Siamo</a>
     <a href="prodotti.php">Prodotti</a>
      <a class="active" href="contatti.php">Contatti</a>
-         <a href="servizi.php">Servizi</a>
+     <a href="servizi.php">Servizi</a>
      <a href="fatturazione.php">Fatturazione Elettronica</a>
-</div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>    
+            
+            
+     </div>
 
+
+  
  
 
 <div class="main">
 
-<div class="desc">
-	<div class="cont">
-	 <h3>Telefono: </h3>
-	  <div class="txt1">0828 184 25 00 </div>
-	</div>
-	
-	<div class="cont">
-	<h3><img src="images/wa.jpeg" alt ="what's app" width="80px">Assistenza:</h3>
-	<div class="txt1">342 59 04 000</div>
-	</div>
+
 	
 	
 
-</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d96907.566815091!2d14.887315582916676!3d40.621909844486666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x133be0a0b60ce20d%3A0xf691b7528ac5b7aa!2sinfopos!3m2!1d40.621931!2d14.957355999999999!5e0!3m2!1sit!2sit!4v1539960791518" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <div style= "clear: both;"> </div>
 
-<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDDUl41r0VgPTZ_aV6k8z274UantmpHQJo'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:520px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://maps-generator.com/it'>http://maps-generator.com</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=8d7c6727f009d00d0b4633b13ea26e2b25c1b6a6'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(40.62193080000001,14.957356000000004),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.62193080000001,14.957356000000004)});infowindow = new google.maps.InfoWindow({content:'<strong>InfoPos</strong><br>via caserta 107/h<br>84092 Bellizzi<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+	 <h3>Recapiti</h3>
+	 <p class="desc">Tel. 0828 184 25 00</p>
+	<p class="desc">Assistenza 342 59 04 000</p>
+	
 
+	 <div style= "clear: both;"> </div>
+	
+  
   <?php
 require_once 'settings.php';
 if(isset($_POST['submit'])){

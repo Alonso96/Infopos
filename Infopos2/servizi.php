@@ -84,14 +84,23 @@
   
 </div>
 
-<div class="navbar">
-  <a  href="index.php" >Home</a>
-    <a  href="chisiamo.php" >Chi Siamo</a>
-    <a  href="prodotti.php">Prodotti</a>
+<script type="text/javascript" src="script/toogle.js"></script>
+ <div class="topnav" id="myTopnav">
+           <a  href="index.php">Home</a>
+    <a href="chisiamo.php" >Chi Siamo</a>
+    <a href="prodotti.php">Prodotti</a>
      <a href="contatti.php">Contatti</a>
      <a class="active" href="servizi.php">Servizi</a>
      <a href="fatturazione.php">Fatturazione Elettronica</a>
-</div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>    
+            
+            
+     </div>
+
+
+  
 
   <div class="icon-bar">
   <a href="https://www.facebook.com/Infopos.it/" class="facebook"><i class="fa fa-facebook"></i></a> 
@@ -123,7 +132,7 @@ Alcuni utenti continuano a pensare che la verificazione periodica sui misuratori
 Con il provvedimento 28/07/2003, pubblicato sulla Gazzetta Ufficiale N. 221 del 23/09/2003 l'Agenzia delle Entrate ha introdotto nuove regole per il controllo periodico sui registratori di cassa. La verifica periodica ha scadenza ANNUALE, vale a dire che ogni anno l'utente è tenuto a rinnovarla, altrimenti il registratore di cassa non è utilizzabile per la vendita. In sede di verifica con esito positivo verrà apposta sulla macchina una targhetta di colore verde su cui viene indicata la data della prossima scadenza e il numero di riconoscimento del tecnico che ha eseguito i test di controllo. Tale targhetta non può e non deve essere rimossa o modificata. L'utente non può utilizzare o detenere, nei locali predisposti alla vendita, apparecchi non sottoposti a verifica annuale, privi per qualsiasi ragione, di targhetta di verifica periodica o sigillo fiscale. L'utilizzatore è responsabile del corretto funzionamento del suo apparecchio e deve conservare ogni documento a esso relativo. Risponde inoltre dell'integrità del sigillo fiscale e dell'etichetta di verificazione periodica.
 
 <b>I nostri tecnici sono abilitati dall'Agenzia delle Entrate ad eseguire la verifica periodica sui misuratori fiscali di ogni marca e modello.</b>
-<a href="https://www1.agenziaentrate.it/servizi/misuratorifiscali/elenco_laboratori.htm"><p>Controlla se il tuo tecnico è autorizzato</p></a>
+<a href="https://www1.agenziaentrate.it/servizi/misuratorifiscali/elenco_laboratori.htm">Controlla se il tuo tecnico è autorizzato</a>
       		</p>
   
   	</div>	  
