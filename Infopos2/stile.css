@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/*
+Document: stile.css
+Created on: 15-gen-2010
+Author : Giustino Borzacchiello giustinob[at]gmail[dot]com
+               per Your Inspiration Web [http://www.yourinspirationweb.com]
+Description: Foglio di stile associato al modulo contatti in PHP
+*/ 
+body,h1,ol,ul,li,p{margin:0;padding:0;}
+
+body{
+  color:#333;
+  font:75%/1.4 Helvetica,Verdana,Arial,sans-serif;
+}
+
+#formYIW{
+  margin:3em auto;
+  width:74%;
+}
+
+#formYIW fieldset{
+  border:none;
+  padding:1.5em;
+  padding-top:0;
+  position:relative;
+}
+
+#formYIW ol{
+  list-style:none;
+  margin-top:3em;
+}
+
+#formYIW li{
+  padding-bottom:1em;
+  
+}
+
+fieldset legend span{
+  background-color:#6CA0F6;
+  font-size:1.5em;
+  padding-left:1em;
+  top:0;
+  position:absolute;
+  width:100%;
+}
+
+#formYIW abbr{
+  border:none;
+  color:#F00;
+  cursor:help;
+}
+
+#formYIW p.controls{
+  border-top:1px solid #6CA0F6;
+  padding:1.5em;
+}
+
+#formYIW label{
+  display:block;
+}
+
+input, textarea, select{
+  display:block;
+}
+
+input.error, textarea.error {border: 2px solid #F67E8F;}
+
+p.error{
+  background: #F67E8F url(error.png) 1% 50% no-repeat;
+  border:2px solid #F00;
+  color:#660D1E;
+  font-size:105%;
+  margin:3em auto;
+  padding:1em 4em;
+  width:25%;
+}
+
+p.info{
+  background-color: #7EF68F;
+  border:2px solid #0F0;
+  color:#0D661E;
+  font-size:105%;
+  margin:3em auto;
+  padding:1em 4em;
+  width:25%;
+}
+
+
+
