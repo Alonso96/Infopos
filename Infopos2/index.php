@@ -203,6 +203,9 @@ function carousel() {
 
 Siamo specializzati nella vendita e assistenza di registratori di cassa e attrezzature per l'automazione dei punti vendita. Il prodotto principale dell’azienda è il punto cassa touch screen (l'evoluzione dei registratori di cassa), integrabile con prodotti complementari e accessori. Questo significa che abbiamo soluzioni sia per il piccolo esercizio che ha la necessità di una semplice cassa, sia per le attività più articolate come locali a più reparti (ristorante + bar, bar + tabaccheria, ecc.) oppure le catene, o i locali che il titolare gestisce a distanza. Per ogni tipologia di cliente, cerchiamo di capire quali sono le sue necessità e proponiamo una soluzione su misura.
 </p>
+
+<h5>A chi ci rivolgiamo:</h5>
+<div style= float:center> <img src="images/rev.png" alt="customers" style=" width:100%; height:auto"></div>
      
 <div class="container_fascia">
 	<div class="fascia"> La nostra azienda è certificata<br><strong>ISO 9001.2008</strong><br><img src="images/swiss.jpg" width="120px" height="auto"><br></div>

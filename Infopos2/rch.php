@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Cei Systems- InfoPos</title>
+<title>RCH- InfoPos</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/layout.css">
@@ -112,18 +112,12 @@
 <div class="main">
   
    
-      <h5> Cei Systems</h5>
-      <img src="images/cei.png" alt="cei Systems" style="width:180px;float:left"><br>
+      <h5> RCH</h5>
+      <img src="images/rch.png" alt="rch" style="width:180px;float:left"><br>
       <p class="desc">
-         		CEI è un'azienda italiana produttrice di registratori di cassa e punti cassa touch screen dedicati alla ristorazione (ristoranti, pizzerie, bar, self-service, discoteche, hotel,...) e agli esercizi commerciali in genere (alimentari, tabaccherie, ...). Offriamo al cliente tutta la attrezzatura necessaria per la gestione informatizzata del proprio locale: registratori di cassa, punti cassa touch screen, stampanti fiscali e stampanti comande, palmari per la raccolta comande e un portale online per il controllo della cassa anche a distanza. La progettazione e produzione dei punti cassa CEI avviene in sede a Grugliaco. Offre ai propri clienti soluzioni per la cassa personalizzate, semplici da utilizzare e un eccellente servizio di assistenza tutti i giorni fino a tarda sera. E' presente con le proprie sedi a Torino, Milano e Roma.
-			La serie di punti cassa T15 è il top di gamma del catalogo CEI. 
-      		</p>
+      RCH ITALIA opera da oltre 45 anni nel settore dei registratori di cassa e offre le più avanzate soluzioni per la gestione del punto vendita
+         		</p>
   
-  		  <img src="images/t15.png" alt="t15" style="width:180px;float:left"><br>
-  		  <p class="desc">
-      		  Questa cassa, dall’estetica semplice ed elegante, si caratterizza per le sue tre varianti, in relazione alle dimensioni dello schermo: 10’’,12’’, 15’’. Il touch screen impiegato, sfrutta la tecnologia resistiva, che garantisce una lunga durata del prodotto rendendolo affidabile e performante come pochi altri nel settore. È un punto cassa professionale, progettato per lavorare ad alti ritmi mantenendo la sua elevata efficienza. Per le sue caratteristiche, la serie T15 è la soluzione più flessibile tra i prodotti CEI, permettendo di soddisfare le esigenze di un locale con poco spazio sul bancone, così come un’attività che necessita di un ampio schermo a disposizione del cassiere. Il potente microprocessore utilizzato rende il T15, lo strumento di lavoro perfetto per chi vuole velocizzare al massimo le operazioni in cassa. Per chi vuole creare avanzate strategie di marketing tramite tessere, buoni o prepagate, può completare questo punto cassa con la tecnologia RFID. Tutta la serie T15 può essere facilmente integrata con i palmari ATZ4. Questo sistema per la raccolta degli ordini al tavolo sarà la marcia in più per tutte le attività di ristorazione, il miglior modo per offrire un eccellente servizio ai vostri clienti e semplificare il lavoro dei camerieri. 
-  		  
-  		  </p>
   		  
   		 <h5>Punti Cassa</h5> 
   		 
@@ -132,24 +126,17 @@
   		
   			<div class="colproduct">
   				
-  			<a href="t15.php"><img src="images/t15t.png" alt="t15" style="width:200px"></a>
-  				<div class="txt2">T15</div>
+  			<a href="asso.php"><img src="images/asso.jpg" alt="asso" style="width:200px"></a>
+  				<div class="txt2">Asso</div>
   			</div>
   			
   			<div class="colproduct">
   			
-  			<a href="tft14.php"><img src="images/tft14.png" alt="tft14" style="width:200px"></a>
-  				<div class="txt2">TFT14</div>
-  			</div>
-  			
-  			<div class="colproduct">
-  			
-  				<img src="images/rc300.png" alt="rc300" style="width:200px">
-  				<div class="txt2">RC300</div>
+  			<a href="atos.php"><img src="images/atos15.jpg" alt="atos" style="width:200px"></a>
+  				<div class="txt2">Atos</div>
   			</div>
   			
   			<div style= "clear: both;"> </div>
-  			
   			
   			<h5>Stampanti Fiscali e di Comanda</h5> 
   		 
@@ -158,43 +145,11 @@
   		
   			<div class="colproduct">
   				
-  				<a href="q3xf.php"><img src="images/q3xf.png" alt="q3fx" style="width:200px"></a>
-  				<div class="txt2">Stampante fiscale Q3XF</div>
+  				<a href="printf.php"><img src="images/printf.jpg" alt="printf" style="width:200px"></a>
+  				<div class="txt2">Stampante Fiscale PrintF</div>
   			</div>
   			
-  			<div class="colproduct">
   			
-  				<a href="spr500.php"><img src="images/spr500_.png" alt="spr500" style="width:200px"></a>
-  				<div class="txt2">Stampante fiscale SPR500</div>
-  			</div>
-  			
-  			<div class="colproduct">
-  			
-  				<img src="images/k3f.png" alt="k3f" style="width:200px">
-  				<div class="txt2">Stampante fiscale K3F</div>
-  			</div>
-  			</div>
-  			<div style= "clear: both;"> </div>
-  			
-  			
-  			<h5>Sistema gestione raccolta comande</h5> 
-  		 
-  		  
-  		  <div class="rowproduct">
-  		
-  			<div class="colproduct">
-  				
-  				<a href="atz4.php"><img src="images/atz4_.png" alt="atz4" style="width:200px" class="image"></a>
-  				<div class="txt2">Palmare Atz4</div>
-  			</div>
-  			
-  			<div class="colproduct">
-  			
-  				<a href="smartnote.php"><img src="images/smartnote.png" alt="Smartnote" style="width:200px"></a>
-  				<div class="txt2">App Smartnote</div>
-  			</div>
-  			
-  		
   			
   		
 

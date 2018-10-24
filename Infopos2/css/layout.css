@@ -128,10 +128,24 @@ body {
     padding: 80px;
 }
 
-.cont{
+
+
+
+.container_contatti{
+	
 	display:inline-block;
+	max-width:400px;
+}
+.cont{
+	
 	margin:30px;
-	background-color:#8ae234;
+	padding: 50px;
+	font-size:20px;
+	text-align:justify;
+	color:white;
+	background-color:#3465a4;
+	width:90%;
+	
 	
 	
 	
@@ -262,6 +276,10 @@ hover .image{
 	opacity: 0.3;
 }
 */
+
+iframe{
+	width:100%;
+}
 .rowteam{
 	
 	

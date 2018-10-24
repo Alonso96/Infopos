@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/layout.css">
 
-   <link rel="stylesheet" type="text/css" href="stile.css" />
+   <link rel="stylesheet" type="text/css" href="stile.css" >
 </head>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -115,8 +115,29 @@
   <div style= "clear: both;"> </div>
 
 	 <h3>Recapiti</h3>
-	 <p class="desc">Tel. 0828 184 25 00</p>
-	<p class="desc">Assistenza 342 59 04 000</p>
+	 
+	 
+	<div class="container_contatti"> 
+	
+		<div class="cont">
+		
+		Telefonaci<br>
+		 0828 184 25 00
+		</div>
+		
+		
+		<div class="cont">
+		
+		WhatsApp<br>
+		342 59 04 000
+		</div>
+		<div class ="cont">
+		Scrivici:<br>
+		info@infopos.it
+		
+		</div>
+	
+	</div>
 	
 
 	 <div style= "clear: both;"> </div>
@@ -169,6 +190,11 @@ endif;
    //Include il form
    require_once 'form.php';
  ?>
+ 
+ 
+ 
+ 
+ 
   </div>
 <div class="container_fascia">
 	<div class="fascia"> La nostra azienda è certificata<br><strong>ISO 9001.2008</strong><br><img src="images/swiss.jpg" width="120px" height="64"><br></div>

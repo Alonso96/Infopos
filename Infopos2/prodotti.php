@@ -85,6 +85,7 @@
 </div>
 
 <script type="text/javascript" src="script/toogle.js"></script>
+<script src="script/smoothscroll.js" type="text/javascript"></script>
  <div class="topnav" id="myTopnav">
            <a  href="index.php">Home</a>
     <a href="chisiamo.php" >Chi Siamo</a>
@@ -137,7 +138,7 @@
   			<div style= "clear: both;"> </div>
   			<div class="colproduct">
   				<h5>Linea Rch</h5>
-  				<img src="images/atos15.jpg" alt="atos15" style="width:60%">
+  			<a href="rch.php">	<img src="images/atos15.jpg" alt="atos15" style="width:60%"></a>
   				<div class="txt2"> Negozi - Tabacchi - Bar - Franchising - Pub - Locali </div>
   			</div>
   			
