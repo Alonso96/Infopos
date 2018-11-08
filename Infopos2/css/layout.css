@@ -135,6 +135,7 @@ body {
 	
 	display:inline-block;
 	max-width:400px;
+	
 }
 .cont{
 	
@@ -145,7 +146,7 @@ body {
 	color:white;
 	background-color:#3465a4;
 	width:90%;
-	
+
 	
 	
 	
@@ -306,7 +307,7 @@ footer{
 
 
 .row_panel{
-	float:left;
+	
 	text-align:center;
 	width:100%;
 	position:relative;

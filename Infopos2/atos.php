@@ -8,7 +8,7 @@
 </head>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 <style>
 
 
@@ -118,7 +118,7 @@
       
         <aside>
   <h5 style="color:red;">Prodotti Correlati</h5>
-  <a href="atos.php"> <img src="images/asso.jpg" alt="atos" style="width:50%"> Atos</a> <br>
+  <a href="atos.php"> <img src="images/asso.jpg" alt="atos" style="width:50%">Asso</a> <br>
     <a href="printf.php"> <img src="images/printf.jpg" alt="atos" style="width:50%"> PrintF</a> <br>
   
   

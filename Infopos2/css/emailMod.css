@@ -1,0 +1,21 @@
+
+
+#emailForm {
+    color: white;
+    background-color: #00567B;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+input {
+    color: #000000;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+textarea {
+    color: #000000;
+    width: 100%;
+}
+#formSubmit {
+    width: 50%;
+    margin-left: 25%;
+}

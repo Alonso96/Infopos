@@ -221,7 +221,7 @@
   	
   	</div>
   
-  
+  <div style= "clear: both;"> </div>
   
   <div class="bot"><h5 class="h6" style="text-color:white; font-size:15px">Registratori di cassa - Sistemi touch screen - Bilance - Macchine per ufficio - Software - Personal Computer - Palmari Raccolta Comande</h5></div>
   <div class="bot"><h5 class="h6" style="text-color:white;font-size:10px;">Ditron - Ds- Cei Systems - Direca - Rch - Helmac -Mbs - Custom </h5>

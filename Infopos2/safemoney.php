@@ -109,9 +109,8 @@
       <br>
        <aside>
   <h5 style="color:red;">Prodotti Correlati</h5>
-  <a href="atz4.php"> <img src="images/atz4.png" alt="t15" style="width:50%"> ATZ4  </a> <br>
+  <a href="xpos.php"> <img src="images/xpos.jpg" alt="xpospc" style="width:50%"> Xpospc</a> <br>
   
-  <a href="smartnote.php"> <img src="images/smartnote.png" alt="tft14" style="width:50%"> App Smartnote </a>
   
   
   </aside>

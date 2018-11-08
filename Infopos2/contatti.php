@@ -7,9 +7,12 @@
 <link rel="stylesheet" href="css/layout.css">
 
    <link rel="stylesheet" type="text/css" href="stile.css" >
+    <link rel="stylesheet" href="css/emailMod.css">
 </head>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="script/emailMod.js"></script>
+
 <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
 <style>
 
@@ -143,56 +146,11 @@
 	 <div style= "clear: both;"> </div>
 	
   
-  <?php
-require_once 'settings.php';
-if(isset($_POST['submit'])){
-   foreach ($_POST as $key => $value){
-    //elimina eventuali spazi aggiuntivi
-    $temp = $value ? trim($value) : '';
-    //se è richiesta ma vuota aggiungila all'array missing
-    if(!strlen ($temp) && in_array($key, $required)){
-      array_push($missing, $key);
-    }
-    //se il campo è aspettato, setta la variabile associata
-    elseif(in_array($key, $expected)){
-      ${$key} = htmlentities($temp); //in questo caso crea $nome, $email, $sito, $commento
-    }
-  }
-  if ( empty($missing) ){
-    //Se l'array missing è vuoto, vuol dire che sono stati inseriti i valori
-    //obbligatori. Costruisco il messaggio    
-    $contenuto_email = "Nome: $nome\n\n"; //Queste variabili sono create nel passaggio precedente
-    $contenuto_email .= "Email: $email\n\n";
-    $contenuto_email .= "Sito Web: $sito\n\n";
-    $contenuto_email .= "Messaggio:\n $messaggio\n\n";
-    //limita la lunghezza a 70 caratteri per la compatibilità
-    $contenuto_email = wordwrap($contenuto_email,70);
-    //invia l'email    
-    $mail_sent = mail($email,$oggetto,$contenuto_email, 'From: '.$email);
-    $info_message = '<p class="info">' . $info_mail_sent . '</p>';
-    if($mail_sent){
-      //Se l'email viene inviata l'array missing non serve più quindi lo svuoto
-      unset($missing);
-    }
-  }
-}
-//se non sono stati immessi campi obbligatori
-if ( isset( $_POST['submit'] ) && isset($missing) && !empty($missing)) :
-   $info_message = '<p class="error">' . $error_missing_fields . '</p>';
-elseif ($_POST['submit'] && !$mail_sent) :
-   //se ci sono stati problemi con l'invio della mail da parte del server
-   $info_message = '<p class="error">' . $error_mail_server . '</p>';
-endif;
-
-
-   //Mostra una notifica sia d'errore che di conferma
-   if ( isset( $info_message ) && strlen( $info_message ) ) echo $info_message;
-   //Include il form
-   require_once 'form.php';
- ?>
- 
- 
- 
+ <!-- Start code for the form-->
+ <div id="emailMod" data-aemPHP="server/emailMod.php" data-aemTO="info@infopos.it"></div>
+  <script type="text/javascript">
+        emailMod.start();
+    </script>
  
  
   </div>
@@ -238,7 +196,7 @@ endif;
   	</div>
   
   
-  
+  <div style= "clear: both;"> </div>
   <div class="bot"><h5 class="h6" style="text-color:white; font-size:15px">Registratori di cassa - Sistemi touch screen - Bilance - Macchine per ufficio - Software - Personal Computer - Palmari Raccolta Comande</h5></div>
   <div class="bot"><h5 class="h6" style="text-color:white;font-size:10px;">Ditron - Ds- Cei Systems - Direca - Rch - Helmac -Mbs - Custom </h5>
     </div>
