@@ -184,7 +184,7 @@ h5 {
 /* Fake image, just for this example */
 .side2{
 	width:33.3%;
-	margin-right: 3%;
+	
 	margin:0;
 	padding: 0;
 	border: 0;
@@ -198,8 +198,8 @@ h5 {
 }
 .side2 h5{
 	color:red;
-	font-size:100%;
-	text-align:center
+	font-size:80%;
+	text-align:center;
 	
 }
 	
@@ -373,6 +373,10 @@ footer{
   .topnav a.icon {
     float: right;
     display: block;
+  }
+  
+  .side2 h{
+  text-align:justify;
   }
 }
 
